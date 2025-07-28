@@ -1,2 +1,39 @@
-# yolo-dental
-This project implements a YOLOv8 model for detecting dental caries, cavities, cracks, and healthy teeth from clinical images. It includes full training and evaluation pipelines on the DentalAI dataset (2,495 annotated images).
+معرفی پروژه این پروژه یک سیستم تشخیص خودکار پوسیدگی دندان با استفاده از معماری YOLOv8 ارائه می‌دهد. مدل آموزش‌دیده قادر به شناسایی و تشخیص چهار کلاس مختلف شامل پوسیدگی (Caries)، حفره دندانی (Cavity)، ترک دندان (Crack) و دندان سالم (Tooth) می‌باشد.
+
+مشخصات فنی دیتاست: DentalAI شامل ۲۴۹۵ تصویر رنگی با کیفیت بالا
+
+فرمت داده‌ها: برچسب‌گذاری به فرمت YOLO
+
+مدل پایه: YOLOv8m (نسخه متوسط)
+
+پارامترهای آموزش:
+
+تعداد دوره‌ها: ۳۰
+
+اندازه بچ: ۱۶
+
+نرخ یادگیری: ۰.۰۰۳
+
+بهینه‌ساز: Adam
+
+لینک دیتاست:https://datasetninja.com/dentalai
+
+قابلیت‌های کلیدی:
+
+پشتیبانی از تمام مراحل آموزش مدل
+
+ارائه معیارهای دقیق ارزیابی عملکرد
+
+ابزارهای بصری‌سازی شامل:
+
+نمودارهای روند آموزش
+
+تحلیل منحنی‌های Precision-Recall
+
+مقایسه پیش‌بینی‌ها با جواب‌های واقعی
+
+امکان تنظیم پارامترهای مختلف آموزش
+
+راه‌های ارتباطی:
+
+برای هرگونه سوال یا پیشنهاد می‌توانید از طریق ایمیل mobina.nikbakhti2024@gmail.com با ما در ارتباط باشید.
